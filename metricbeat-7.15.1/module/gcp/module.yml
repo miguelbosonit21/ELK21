@@ -1,0 +1,7 @@
+name: gcp
+metricsets:
+  - compute
+  - pubsub
+  - loadbalancing
+  - storage
+  - gke
