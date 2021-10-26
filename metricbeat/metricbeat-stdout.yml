@@ -56,7 +56,8 @@ setup.template.settings:
 
 # ------------------------------ Console Output -------------------------------
 output.console:
-  pretty: true
+    codec.json:
+        pretty: true
 # ------------------------------ Logstash Output -------------------------------
 #output.logstash:
   # The Logstash hosts

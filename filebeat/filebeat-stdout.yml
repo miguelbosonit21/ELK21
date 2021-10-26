@@ -173,8 +173,8 @@ setup.template.settings:
 
 # Configure what output to use when sending the data collected by the beat.
 output.console:
-  pretty: true
-
+    codec.json:
+        pretty: true
 
 # ---------------------------- Elasticsearch Output ----------------------------
 #output.elasticsearch:
